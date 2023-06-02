@@ -6,3 +6,7 @@ git push -f origin master
 
 
 git checkout sub-master ### where sub-master is the name of the branch created
+
+### remove a file 
+git rm "filename.py"    ##name of the file
+git push Origin master  ### where Origin (report git name) && master (branchname)
