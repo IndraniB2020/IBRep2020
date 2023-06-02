@@ -3,3 +3,6 @@ git add .
 git commit -a -m "testfile added
 Add a remote git
 git push -f origin master
+
+
+git checkout sub-master ### where sub-master is the name of the branch created
