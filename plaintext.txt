@@ -1,1 +1,5 @@
-blah blah black sheep
+git init
+git add .
+git commit -a -m "testfile added"
+Add a remote git repo
+git push -f Origin master
