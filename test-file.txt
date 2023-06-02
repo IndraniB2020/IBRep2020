@@ -1,1 +1,5 @@
-twinkle twinkle little star
+git init
+git add .
+git commit -a -m "testfile added
+Add a remote git
+git push -f origin master
