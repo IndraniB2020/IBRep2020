@@ -14,3 +14,8 @@ git push Origin master  ### where Origin (report git name) && master (branchname
 
 ###create a new branch outside master
 git branch newbranchname
+
+###remove a sub-branch from main branch locally, then remote 
+git fetch --prune ###prunes all the branches
+git branch -d new-master ## local branch (new-master) removal
+git push --delete git new-master ###where git (name of the remore branch) and new-master (sub-branch), remote branch removal
