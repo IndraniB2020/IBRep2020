@@ -19,3 +19,6 @@ git branch newbranchname
 git fetch --prune ###prunes all the branches
 git branch -d new-master ## local branch (new-master) removal
 git push --delete git new-master ###where git (name of the remore branch) and new-master (sub-branch), remote branch removal
+
+###error: unrelated histories
+git pull origin master --allow-unrelated-histories
