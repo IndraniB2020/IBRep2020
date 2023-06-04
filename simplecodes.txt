@@ -4,12 +4,9 @@ git commit -a -m "testfile added"
 Add a remote git repo
 git push -f Origin master
 
-<<<<<<< HEAD
 git remote add origin https://github.com/IndraniB2020/BlockchainETL.git ###create remote.git
 git push origin --delete remoteBranchName  ##delete remote branch
 
-=======
->>>>>>> b55eab7fa1ba2f472ee001fb7aaeeddae9202609
 
 # !pip install kaggle
 ## ! mkdir ~/.kaggle
