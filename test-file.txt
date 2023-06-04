@@ -11,3 +11,6 @@ git checkout sub-master ### where sub-master is the name of the branch created
 git rm "filename.py"    ##name of the file
 git commit -m "remove file1.txt"
 git push Origin master  ### where Origin (report git name) && master (branchname)
+
+###create a new branch outside master
+git branch newbranchname
