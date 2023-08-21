@@ -22,3 +22,6 @@ git push --delete git new-master ###where git (name of the remore branch) and ne
 
 ###error: unrelated histories
 git pull origin master --allow-unrelated-histories
+
+###pull irrespective of the branches
+git pull origin branchname --allow-unrelated-histories
