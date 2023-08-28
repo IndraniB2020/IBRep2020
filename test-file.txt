@@ -28,3 +28,21 @@ git pull origin branchname --allow-unrelated-histories
 
 git show -ref  ###to show all local references
 git push origin HEAD:master  ##pushlocal-reference-independent solution
+
+###mounting data from kaggle
+# !pip install kaggle
+from google.colab import files
+files.upload()    #### search for the downloaded kaggle.json, which you have generated using kaggleAPI from your account in kaggle
+####upload kaggle.json
+# !rm -r ~/.kaggle ---if an existing kaggle folder stays in google colab, not necessary of a step
+!mkdir ~/.kaggle
+! cp kaggle.json ~/.kaggle/
+##from google.colab import drive
+##drive.mount('/content/drive')
+! chmod 600 ~/.kaggle/kaggle.json
+! kaggle datasets list
+!kaggle competitions download -c tabular-playground-series-jul-2022 ###!kaggle competitions download -c 'name-of-the-competition'
+
+
+
+
